@@ -1,25 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikhil Dhital</title>
+    <title>Nikhil Dhital's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 0.5rem 1rem;
+            flex-wrap: wrap;
+        }
+        .navbar .nav-links {
+            display: flex;
+            flex: 1;
+        }
+        .navbar .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        .navbar .nav-links a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .navbar .social-icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .social-icons a {
+            margin-left: 0.5rem;
+        }
+        .navbar .social-icons img {
+            width: 20px;
+            height: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        @media (max-width: 768px) {
+            .navbar .nav-links a {
+                padding: 0.5rem;
+            }
+            .navbar .social-icons {
+                flex-wrap: wrap;
+            }
+            .navbar .social-icons a {
+                margin: 0.5rem 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .navbar {
+                padding: 0.5rem;
+            }
+            .navbar .nav-links a {
+                padding: 0.5rem;
+                flex: 1;
+                text-align: center;
+            }
+            .navbar .social-icons a {
+                margin: 0.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1 class="text-danger" style="text-align: center;">  Nikhil Dhital</h1>
+        <div class="container">
+            <img height="200px" style=" border-radius: 50%;" src="my.JPG" alt="Nikhil Dhital" class="profile-pic">
+            <h1>Nikhil Dhital</h1>
+            <p>Student | Aspiring React Developer</p>
+        </div>
     </header>
-<p style="text-align: center;">my story: my name is nikhil. i live in  biratnagar 3. i studied in bachelor 4 th semester and i am learning htmml and i am going to web developer and graphic desiginer</p>
 
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#about">About Us</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/nikhil.dhital/"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+            <a href="https://github.com/sto-nikhil-ic"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/nikhil-dhital-478474265/"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn"></a>
+        </div>
+    </nav>
+<div>on progressssssssss<h1></h1> 
+    </div>
 
-
-<h2 style="text-align: center;"><a href ="https://github.com/sto-nikhil-ic" target="_main"> Click here to view my gihtub</a></h2>
-<div style="text-align: center;">
-<img src="my.JPG" width="250" height="250">
-</div>
+    <footer>
+        <p>&copy; 2024 Nikhil Dhital</p>
+    </footer>
+</body>
+</html>
 
 
 
